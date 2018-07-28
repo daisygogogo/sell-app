@@ -1,30 +1,21 @@
-# sell-app
+# # sell-app
 
-> A Vue.js project
+> 仿饿了么外卖app，高要求还原设计稿，app分为商品，评分，和商家页面。封装了点击购买商品组件，购物车组件，星星评分组件，分割组件等多个组件，提高代码的复用性。实现了可左右联动查看商品列表，选择商品放入购物车，计算价格，展示商家评分和用户评语等等功能。
 
-## Build Setup
+## 项目技术说明
+* 使用vue-cli搭建脚手架
+* 使用vue2.0版本
+* 使用vue-router作为路由
+* 使用vue-resource发送ajax请求
+* 使用stylus作为css预处理器
+* 使用es6语法
+* 使用eslint作为代码风格检查工具
+* 使用webpack打包项目
+
+
+### 代码部署
 
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
+# 在安装了node环境的情况下，切换到项目目录文件夹后执行以下命令可以运行代码，打开8080端口即可查看项目
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
