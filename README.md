@@ -1,4 +1,4 @@
-# my-very-first-vue-project
+# sell-app
 
 > A Vue.js project
 
